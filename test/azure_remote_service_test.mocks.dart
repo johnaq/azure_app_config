@@ -45,12 +45,6 @@ class _FakeResponse_1<T> extends _i1.SmartFake implements _i2.Response<T> {
 /// See the documentation for Mockito's code generation for more information.
 class MockClient extends _i1.Mock implements _i3.Client {
   @override
-  String get apiVersion => (super.noSuchMethod(
-        Invocation.getter(#apiVersion),
-        returnValue: '',
-        returnValueForMissingStub: '',
-      ) as String);
-  @override
   _i2.Dio get dio => (super.noSuchMethod(
         Invocation.getter(#dio),
         returnValue: _FakeDio_0(
